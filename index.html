@@ -48,23 +48,7 @@
 <p class="p1">Drag the papers to move!</p>
 </div>
 <!-- partial -->
-  <script>
-  // Function to dynamically load JavaScript files
-  function loadScript(src) {
-    var script = document.createElement('script');
-    script.src = src;
-    script.async = true;
-    document.head.appendChild(script);
-  }
-
-  // Check if the screen width is mobile-sized
-  if (window.innerWidth <= 768) { // You can adjust the breakpoint (e.g., 768px)
-    loadScript('./mobile.js');  // Load mobile-specific script
-  } else {
-    loadScript('./script.js');  // Load desktop-specific script
-  }
-</script>
-
+  <script  src="./script.js"></script>
 
 </body>
 </html>
